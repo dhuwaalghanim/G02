@@ -202,8 +202,27 @@ main {
 
 .hero-image, .jobs-hero-visual img {
     width: 100%;
+    max-width: 420px;
     border-radius: 16px;
     box-shadow: var(--shadow);
+    object-fit: cover;
+}
+
+.job-icon img,
+.talent-icon,
+.fake-search img,
+.job-card-bottom img,
+.circle-arrow img,
+.heart-button img,
+.view-details img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.talent-icon {
+    width: 40px;
+    height: 40px;
 }
 
 /* Premium Aside Card styling */
